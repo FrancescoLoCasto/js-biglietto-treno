@@ -11,8 +11,8 @@ document.getElementById('età-pass').innerHTML = peopleAge + '';
 
 let ticketPrice = kilomNumbers *0.21;
 
-let ticketMinAge = ticketPrice - (ticketPrice * 0.21);
-let ticketOverAge = ticketPrice - (ticketPrice * 0.39);
+let ticketMinAge = ticketPrice - (ticketPrice * 0.20);
+let ticketOverAge = ticketPrice - (ticketPrice * 0.40);
 
 //If and Else row
 
