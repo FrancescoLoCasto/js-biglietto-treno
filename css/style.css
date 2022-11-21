@@ -9,61 +9,6 @@ body{
 
 /* <!-- Section logo and title --> */
 
-.topimg-text{
-    text-align: center;
-}
-
 .topimg-text img{
-    height: 100px;
-}
-
-/* <!-- Ticketbox --> */
-
-
-.ticketbox{
-    color: wheat;
-    margin: 0 auto;
-    width: 400px;
-    height: 400px;
-    text-align: center;
-}
-
-.ticketbox h3{
-    width: 300px;
-    margin-left: 2rem;    
-    background-color: brown;
-    padding: 1.5rem;
-    border-radius: 2rem;
-}
-
-.ticketbox span{
-    background-color: black;
-    padding: .4rem;
-    border-radius: 1rem;
-}
-
-/* <!-- Button section --> */
-
-
-.check-in-button{
-    margin-left: 50%;
-
-}
-
-.check-in-button button{
     width: 200px;
-    border-radius: 1rem;
-    padding: .7rem;
-    color: black;
-    background-color: rgb(4, 139, 181);
-    border: 1px solid blue;
-    margin: 0 auto;
-
-
-}
-
-.check-in-button button:hover{
-    background-color: white;
-    transition: all 1s ease-out;
-    
 }
