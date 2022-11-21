@@ -5,7 +5,7 @@ body{
 }
 
 .topimg-text{
-    margin-left: 40%;
+    text-align: center;
 }
 
 .topimg-text img{
@@ -35,6 +35,11 @@ body{
     border-radius: 1rem;
 }
 
+.check-in-button{
+    margin-left: 50%;
+
+}
+
 .check-in-button button{
     width: 200px;
     border-radius: 1rem;
@@ -42,10 +47,13 @@ body{
     color: black;
     background-color: rgb(4, 139, 181);
     border: 1px solid blue;
+    margin: 0 auto;
+
 
 }
 
 .check-in-button button:hover{
     background-color: white;
     transition: all 1s ease-out;
+    
 }
