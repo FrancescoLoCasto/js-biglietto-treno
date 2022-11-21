@@ -11,5 +11,10 @@ let ticketMinAge = ticketPrice - (ticketPrice * 0.21)
 let ticketOverAge = ticketPrice - (ticketPrice * 0.39)
 
 if (peopleAge <= 18) {
-    document.getElementById('costo')
+    document.getElementById('costo').innerHTML = 'Il costo del biglietto è; ' + ticketMinAge.toFixed(2)
+} else if (peopleAge >= 65){
+    document.getElementById('costo').innerHTML = 'Il costo del biglietto è; ' + ticketOverAge.toFixed(2)
+} else {
+    document.getElementById('costo').innerHTML = 'Il costo del biglietto è; ' + ticketPrice.toFixed(2)
+
 }
