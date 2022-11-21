@@ -4,6 +4,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.topimg-text{
+    margin-left: 40%;
+}
+
 .topimg-text img{
     height: 100px;
 }
@@ -11,8 +15,7 @@ body{
 
 .ticketbox{
     color: wheat;
-    margin-top: 10rem;
-    margin-left: 35%;
+    margin: 0 auto;
     width: 400px;
     height: 400px;
     text-align: center;
@@ -30,4 +33,19 @@ body{
     background-color: black;
     padding: .4rem;
     border-radius: 1rem;
+}
+
+.check-in-button button{
+    width: 200px;
+    border-radius: 1rem;
+    padding: .7rem;
+    color: black;
+    background-color: rgb(4, 139, 181);
+    border: 1px solid blue;
+
+}
+
+.check-in-button button:hover{
+    background-color: white;
+    transition: all 1s ease-out;
 }
