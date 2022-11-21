@@ -12,3 +12,7 @@ body{
 .topimg-text img{
     width: 200px;
 }
+
+.navbar-brand img{
+    height: 20px;
+}
