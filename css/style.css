@@ -1,0 +1,14 @@
+
+.ticketbox{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border: 2px dotted magenta;
+}
+
+.ticketbox h3{
+    background-color: brown;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
