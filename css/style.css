@@ -1,14 +1,33 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1686771.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topimg-text img{
+    height: 100px;
+}
+
 
 .ticketbox{
-    background-color: aqua;
-    width: 500px;
-    height: 500px;
+    color: wheat;
+    margin-top: 10rem;
+    margin-left: 35%;
+    width: 400px;
+    height: 400px;
     text-align: center;
-    border: 2px dotted magenta;
 }
 
 .ticketbox h3{
+    width: 300px;
+    margin-left: 2rem;    
     background-color: brown;
     padding: 1.5rem;
     border-radius: 2rem;
+}
+
+.ticketbox span{
+    background-color: black;
+    padding: .4rem;
+    border-radius: 1rem;
 }
