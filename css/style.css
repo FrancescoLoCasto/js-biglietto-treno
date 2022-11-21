@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
 }
 
+
+/* <!-- Section logo and title --> */
+
 .topimg-text{
     text-align: center;
 }
@@ -13,6 +16,8 @@ body{
 .topimg-text img{
     height: 100px;
 }
+
+/* <!-- Ticketbox --> */
 
 
 .ticketbox{
@@ -36,6 +41,9 @@ body{
     padding: .4rem;
     border-radius: 1rem;
 }
+
+/* <!-- Button section --> */
+
 
 .check-in-button{
     margin-left: 50%;
